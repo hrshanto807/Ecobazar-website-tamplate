@@ -1029,14 +1029,14 @@ subscribe area start
 /* -----------------------------------------------------------------------------------
 newsteller poppu area
 ------------------------------------------------------------------------------------ */
-.newsletter-poppup-area {   
+.newsletter-poppup-area {
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
     padding: 10px 40px 10px 10px;
-    
+
 
 }
 
@@ -1107,4 +1107,447 @@ newsteller poppu area
     line-height: 20px;
     border-radius: 43px;
     background: var(--eco-buttn-color);
+}
+
+/* ------------------------------------------------------------------------------------------------------------
+shop area
+----------------------------------------------------------------------------------- -------------------------*/
+.eco-best-deal-area.eco-shop {
+    background-image: url('../home-img/vedio.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 358px;
+    flex-shrink: 0;
+}
+
+/* -------------------------------------------------------------------------------------------------------
+product-view-right-all
+---------------------------------------------------------------------------------------------------------- */
+.product-view-all {
+    width: 1320px;
+    height: 636px;
+    padding: 40px;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+
+.product-view-right-all {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.product-view-right-heading-top h2 {
+    color: var(--eco-heading-color);
+    font-family: var(--eco-primary-font);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 43.2px */
+}
+
+.product-view-right-heading-top a {
+    color: #2C742F;
+    font-family: var(--eco-primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: rgba(32, 181, 38, 0.20);
+}
+
+.product-view-right-heading-icon-star i {
+    color: #FF8A00;
+    font-size: 18px;
+}
+
+.product-view-right-heading-icon-star h6 {
+    color: #666;
+    font-family: var(--eco-primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.product-view-right-heading-icon-star p {
+    color: #666;
+    font-family: var(--eco-primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.product-view-right-heading-icon-star p::before {
+    content: '.';
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.product-view-right-heading-price del {
+    color: #B3B3B3;
+    font-family: var(--eco-primary-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: strikethrough;
+}
+
+.product-view-right-heading-price h3 {
+    color: #2C742F;
+    font-family: var(--eco-primary-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.product-view-right-heading-price a {
+    color: #EA4B48;
+    font-family: var(--eco-primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    display: flex;
+    padding: 3px 10px;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(234, 75, 72, 0.10);
+    margin-left: 12px;
+}
+
+.product-view-right-content-top-icon i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--eco-heading-color);
+    font-size: 18px;
+
+}
+
+.product-view-right-content-top-content p {
+    color: var(--eco-secondary-color);
+    font-family: var(--eco-primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 16px;
+}
+
+.product-view-right-content-top-icon i:hover {
+    background-color: #00B207;
+    color: #fff;
+}
+
+.product-view-right-content-top-icon i.active {
+    background-color: #00B207;
+    color: #fff;
+}
+
+.product-view-right-content-cart-left i,
+.product-view-right-content-cart-left p {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--eco-heading-color);
+    font-size: 18px;
+    background-color: #eeeeee;
+    color: #666;
+}
+
+.product-view-right-content-cart-left p {
+    background-color: transparent;
+}
+
+.product-view-right-content-cart-buton {
+    display: flex;
+    width: 368px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #00B207;
+    border-radius: 43px;
+    margin-left: 4px;
+}
+
+.product-view-right-content-cart-buton a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #fff;
+    font-family: var(--eco-primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.product-view-right-content-cart-icon i {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 43px;
+    background: rgba(32, 181, 38, 0.10);
+    font-size: 20px;
+    color: #2C742F;
+    margin-left: 12px;
+}
+
+.product-view-bottom {
+    color: var(--eco-secondary-color);
+    font-family: var(--eco-primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+/* -------------------------------------------------------------------------------
+description-heading-area
+---------------------------------------------------------------------------------- */
+.description-heading-area a {
+    padding: 16px;
+    background: var(--gray-scale-white, #FFF);
+    color: var(--eco-text-color);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+
+.description-heading-area a:hover {
+    padding: 16px;
+    background: var(--gray-scale-white, #FFF);
+    box-shadow: 0px -2px 0px 0px #20B526 inset;
+    color: var(--eco-heading-color);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.description-heading-area a.active {
+    padding: 16px;
+    background: var(--gray-scale-white, #FFF);
+    box-shadow: 0px -2px 0px 0px #20B526 inset;
+    color: var(--eco-heading-color);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.description-single-cheak-area-icon {
+    display: flex;
+    gap: 11.5px;
+    margin-bottom: 14px;
+}
+
+.description-single-cheak-area-icon i {
+    width: 20px;
+    height: 20px;
+    font-size: 12.5px;
+    border-radius: 100px;
+    background: var(--branding-success, #00B207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.description-single-area p {
+    color: var(--eco-text-color);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.description-area-right-top {
+    position: relative;
+}
+
+.description-area-right-top i {
+    position: absolute;
+    top: 129px;
+    left: 236px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: var(--eco-buttn-color);
+}
+
+.description-area-right-bottom-single-content h3 {
+    color: var(--eco-heading-color);
+    font-family: var(--eco-primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.description-area-right-bottom-single-content p {
+    color: #808080;
+    font-family: var(--eco-primary-font);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 6px;
+}
+
+.description-area-right-bottom {
+    border: 1px solid var(--eco-primary-color);
+    padding: 24px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------------------
+wishlist-hero-area
+-------------------------------------------------------------------------------- */
+.wishlist-hero-area {
+    background-image: url('../home-img/vedio.png');
+    background-repeat: no-repeat;
+    height: 120px;
+    padding-left: 300px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.wishlist-hero-area i {
+    color: var(--eco-text-color);
+    font-size: 16px;
+}
+
+.wishlist-hero-area a {
+    color: #999;
+    font-family: var(--eco-primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.wishlist-hero-area a.active {
+    color: #00B207;
+}
+
+.my-whislist-heading h2 {
+    color: var(--eco-heading-color);
+    text-align: center;
+    font-family: var(--eco-primary-font);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 40px;
+}
+
+.my-whislist-content-area-all {
+    padding: 24px;
+    width: 1320px;
+    height: 506px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    border-radius: 8px;
+    border: 1px solid var(--gray-scale-gray-100, #E6E6E6);
+}
+
+.my-whislist-content-area-heading a {
+    color: var(--eco-secondary-color);
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.my-whislist-content-left p,
+.my-whislist-content-left-middle p {
+    color: var(--eco-heading-color);
+    font-family: var(--eco-primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.my-whislist-content-left-middle del {
+    color: var(--eco-text-color);
+    font-family: var(--eco-primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: strikethrough;
+}
+
+.my-whislist-content-right-middle a {
+    display: inline-flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: rgba(32, 181, 38, 0.20);
+    color: #2C742F;
+    font-family: var(--eco-primary-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.my-whislist-content-right-middle a.out-off{
+    color: #EA4B48;
+    background: rgba(234, 75, 72, 0.20);
+
+}
+.my-whislist-content-right i {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+}
+.my-whislist-content-right a.out-off{
+    background: var(--gray-scale-gray-50, #F2F2F2);
+    color:#B3B3B3;
 }

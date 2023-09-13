@@ -7,7 +7,15 @@
         preloader: false,
         fixedContentPos: false
     });
-    $('.eco-primary-menu').click(function () {
+    $('.Product-View').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+    });
+    $('.eco-icon-menu').click(function () {
         $('.eco-hero-catagory-area').slideToggle();
 
     });
@@ -23,7 +31,7 @@
         autoplayHoverPause: true,
 
 
-    })
+    });
     $('.eco-fetured-single-area-active-icon').magnificPopup({
         items: {
             src: 'home-img/fetures/4.png'
@@ -49,5 +57,13 @@
         autoplayTimeout: 2000,
         autoplayHoverPause: true,
 
+    });
+    $('#wishlist').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
     });
 })(jQuery);

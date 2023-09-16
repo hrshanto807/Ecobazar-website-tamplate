@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Tabs - Default functionality</title>
+    <link rel="stylesheet" href="font-awosome/css/all.min.css">
+    <link rel="stylesheet" href="css/project.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="" id="timer"></div>
+    </div>
+    
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/countdown.js"></script>
+    <script type="text/javascript">
+        $('#timer').countdown('2023/12/31', function (event) {
+            $(this).html(event.strftime('<div> %H Hours </div>'+'<div> %M Min </div>'+'<div>%S Sec.</div>'));
+        });
+    </script>
+
+</body>
+
+</html>

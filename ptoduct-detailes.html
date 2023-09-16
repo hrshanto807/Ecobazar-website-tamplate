@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="css/project.css">
     <title>PRoduct details</title>
 </head>
@@ -19,18 +20,25 @@
                 <div class="eco-heading-lang-area">
                     <div class="eco-heading-lang flex justify-between border-b border-b-gray-300  py-4 ">
                         <div class="eco-heading-lang-left eco-tag flex space-x-2 items-center">
-                            <i class="fa-solid fa-location-dot text-gray-400"></i>
-                            <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+                            <a href="#"><i class="fa-solid fa-location-dot text-gray-400"></i></a>
+                            <a href="location:Store Location: Lincoln- 344, Illinois, Chicago, USA">
+                                <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+                            </a>
                         </div>
                         <div class="eco-heading-lang-right flex justify-between eco-tag gap-10">
                             <div class="eco-heading-single-lang flex justify-between items-center  space-x-1">
-                                <p>Eng</p>
-                                <i class="fa-solid fa-angle-down text-gray-400"></i>
+                                <a href="#">
+                                    <p>Eng</p>
+                                </a>
+                                <a href="#"> <i class="fa-solid fa-angle-down text-gray-400"></i></a>
 
                             </div>
                             <div class="eco-heading-single-lang flex justify-between items-center space-x-1">
-                                <p>USD</p>
-                                <i class="fa-solid fa-angle-down text-gray-400"></i>
+                                <a href="#">
+                                    <p>USD</p>
+                                </a>
+                                <a href="#"> <i class="fa-solid fa-angle-down text-gray-400"></i></a>
+
 
                             </div>
                         </div>
@@ -45,7 +53,7 @@
                 <div class="eco-logo-heading-area py-5 flex justify-between items-center">
                     <div class="eco-logo-heading">
                         <div class="eco-logo-png">
-                            <img src="home-img/Logo.png" alt="">
+                            <a href="index.html"><img src="home-img/Logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="eco-logo-search flex ">
@@ -59,18 +67,23 @@
                     </div>
                     <div class="eco-logo-call-numbr flex items-center gap-3">
                         <div class="eco-logo-call-icon">
-                            <i class="fa-solid fa-phone-volume text-4xl text-gray-500"></i>
+                            <a href="tel:"><i class="fa-solid fa-phone-volume text-4xl text-gray-500"></i></a>
                         </div>
                         <div class="eco-logo-call-content eco-tag">
-                            <p>Customer Services</p>
-                            <h4>(219) 555-0114</h4>
+                            <a href="tel:">
+                                <p>Customer Services</p>
+                            </a>
+                            <a href="tel:">
+                                <h4>(219) 555-0114</h4>
+                            </a>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- eco primary menu area -->
-        <section class="pb-6">
+        <section>
             <div class="container px-10">
                 <div class="eco-primary-menu flex justify-between items-center bg-black py-4">
                     <div class="eco-icon-menu flex gap-3 items-center justify-center">
@@ -80,11 +93,10 @@
                     </div>
                     <div class="eco-primary-main-menu ">
                         <ul class="flex gap-8">
-                            <li><a href="index.html">Home<i class="fa-solid fa-angle-down"></i></a></li>
-                            <li><a href="shop.html">Shop<i class="fa-solid fa-angle-down"></i></a></li>
-                            <li><a href="ptoduct-detailes.html" class="active">P-Details<i
-                                        class="fa-solid fa-angle-down"></i></a></li>
-                            <li><a href="wishlist.html">Wishlist<i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="ptoduct-detailes.html"  class="active">p-Details</a></li>
+                            <li><a href="wishlist.html">Wishlist</a></li>
                             <li><a href="newsletter.html" class="popup-new">Newsletter</a></li>
                             <li><a href="product-view.html" class="Product-View">Product View</a></li>
                         </ul>
@@ -202,91 +214,247 @@
         </section>
         <!-- descripetion area start -->
         <section>
-            <div class="description-heading-area mb-7 flex justify-center gap-4 border-b-2 border-b-gray-200">
-                <a href="#" class="active">Descriptions</a>
-                <a href="#">Additional Information</a>
-                <a href="#">Customer Feedback</a>
-
-            </div>
-        </section>
-        <section class="section mb-20">
             <div class="container px-10">
-                <div class="descirption-area-all flex gap-32 items-center">
-                    <div class="description-area-left">
-                        <!-- single-discription-area start -->
-                        <div class="description-single-area">
-                            <p>Sed commodo aliquam dui ac porta. Fusce ipsum felis, imperdiet at posuere ac, viverra
-                                at<br>
-                                mauris. Maecenas tincidunt ligula a sem vestibulum pharetra. Maecenas auctor tortor
-                                lacus,<br> nec laoreet nisi porttitor vel. Etiam tincidunt metus vel dui interdum
-                                sollicitudin. Mauris sem<br> ante, vestibulum nec orci vitae, aliquam mollis lacus. Sed
-                                et
-                                condimentum arcu, id molestie<br> tellus. Nulla facilisi. Nam scelerisque vitae justo a
-                                convallis. Morbi urna ipsum, placerat quis<br> commodo quis, egestas elementum leo.
-                                Donec
-                                convallis mollis enim. Aliquam id mi quam.<br> Phasellus nec fringilla elit.</p>
+                <div class="description-heading-area" id="tabs">
+                    <ul class="flex items-center justify-center border-b-2 mb-7 gap-4">
+                        <li><a href="#tabs-1">Descriptions</a></li>
+                        <li><a href="#tabs-2">Additional Information</a></li>
+                        <li><a href="#tabs-3">Customer Feedback</a></li>
+                    </ul>
+                    <div class="description-left-right-content-area">
+                        <div class="tabs-content-area">
+                            <div id="tabs-1" class="description-single-area">
+                                <p>Sed commodo aliquam dui ac porta. Fusce ipsum felis, imperdiet at posuere ac, viverra
+                                    at<br>
+                                    mauris. Maecenas tincidunt ligula a sem vestibulum pharetra. Maecenas auctor tortor
+                                    lacus,<br> nec laoreet nisi porttitor vel. Etiam tincidunt metus vel dui interdum
+                                    sollicitudin. Mauris sem<br> ante, vestibulum nec orci vitae, aliquam mollis lacus.
+                                    Sed
+                                    et
+                                    condimentum arcu, id molestie<br> tellus. Nulla facilisi. Nam scelerisque vitae
+                                    justo a
+                                    convallis. Morbi urna ipsum, placerat quis<br> commodo quis, egestas elementum leo.
+                                    Donec
+                                    convallis mollis enim. Aliquam id mi quam.<br> Phasellus nec fringilla elit.</p>
 
-                            <p class="mt-6 mb-5"> Nulla mauris tellus, feugiat quis pharetra sed, gravida ac dui. Sed
-                                iaculis, metus
-                                faucibus<br> elementum tincidunt, turpis mi viverra velit, pellentesque tristique neque
-                                mi
-                                eget nulla. Proin<br> luctus elementum neque et pharetra. </p>
-                            <div class="description-single-cheak-area">
-                                <div class="description-single-cheak-area-icon">
-                                    <i class="fa-solid fa-check"></i>
-                                    <p>100 g of fresh leaves provides.</p>
+                                <p class="mt-6 mb-5"> Nulla mauris tellus, feugiat quis pharetra sed, gravida ac dui.
+                                    Sed
+                                    iaculis, metus
+                                    faucibus<br> elementum tincidunt, turpis mi viverra velit, pellentesque tristique
+                                    neque
+                                    mi
+                                    eget nulla. Proin<br> luctus elementum neque et pharetra. </p>
+                                <div class="description-single-cheak-area">
+                                    <div class="description-single-cheak-area-icon">
+                                        <i class="fa-solid fa-check"></i>
+                                        <p>100 g of fresh leaves provides.</p>
+                                    </div>
+                                    <div class="description-single-cheak-area-icon">
+                                        <i class="fa-solid fa-check"></i>
+                                        <p>100 g of fresh leaves provides.</p>
+                                    </div>
+                                    <div class="description-single-cheak-area-icon">
+                                        <i class="fa-solid fa-check"></i>
+                                        <p>100 g of fresh leaves provides.</p>
+                                    </div>
+                                    <div class="description-single-cheak-area-icon">
+                                        <i class="fa-solid fa-check"></i>
+                                        <p>100 g of fresh leaves provides.</p>
+                                    </div>
                                 </div>
-                                <div class="description-single-cheak-area-icon">
-                                    <i class="fa-solid fa-check"></i>
-                                    <p>100 g of fresh leaves provides.</p>
+                                <p>Cras et diam maximus, accumsan sapien et, sollicitudin velit. Nulla blandit eros non
+                                    turpis<br> lobortis iaculis at ut massa. </p>
+                            </div>
+                            <div id="tabs-2" class="ps-40">
+                                <div class="single-information">
+                                    <h5>Weight:</h5>
+                                    <p class="ps-16">03</p>
                                 </div>
-                                <div class="description-single-cheak-area-icon">
-                                    <i class="fa-solid fa-check"></i>
-                                    <p>100 g of fresh leaves provides.</p>
+                                <div class="single-information">
+                                    <h5>Color:</h5>
+                                    <p class="ps-16">Green</p>
                                 </div>
-                                <div class="description-single-cheak-area-icon">
-                                    <i class="fa-solid fa-check"></i>
-                                    <p>100 g of fresh leaves provides.</p>
+                                <div class="single-information">
+                                    <h5>Type:</h5>
+                                    <p class="ps-16">Organic</p>
+                                </div>
+                                <div class="single-information">
+                                    <h5>Category:</h5>
+                                    <p class="ps-8">Vegetables</p>
+                                </div>
+                                <div class="single-information">
+                                    <h5>Stock Status:</h5>
+                                    <p class="ps-4">Available (5,413)</p>
+                                </div>
+                                <div class="single-information flex items-center mt-4 gap-1.5">
+                                    <h5>Tag:</h5>
+                                    <p>
+                                        <a href="Green Cabbage">Vegetables</a>
+                                        <a href="Green Cabbage">Healthy</a>
+                                        <a href="Green Cabbage" class="text-black underline-offset-1">Chinese</a>
+                                        <a href="Green Cabbage">Cabbage</a>
+                                        <a href="Green Cabbage">Green Cabbage</a>
+                                    </p>
                                 </div>
                             </div>
-                            <p>Cras et diam maximus, accumsan sapien et, sollicitudin velit. Nulla blandit eros non
-                                turpis<br> lobortis iaculis at ut massa. </p>
-                        </div>
-                        <!-- single-discription-area end -->
-                    </div>
-                    <div class="description-area-right-all">
-                        <div class="description-area-right-top">
-                            <img src="home-img/description.png" alt="">
-                            <a class="on-youtoube-vedio" href="https://www.youtube.com/watch?v=DXYsKZ9XA5c"><i
-                                    class="fa-solid fa-play"></i></a>
-                        </div>
-                        <div class="description-area-right-bottom">
-                            <div class="description-area-right-bottom-single flex items-center gap-3">
-                                <div class="description-area-right-bottom-single-icon">
-                                    <i class="fa-solid fa-tags text-green-600 text-2xl"></i>
+                            <div id="tabs-3" class="customar-feedback">
+                                <!-- customar-feedback single start -->
+                                <div class="customar-feedback-single">
+                                    <div class="customar-feedback-single-top">
+                                        <div class="customar-feedback-single-top-left">
+                                            <div class="customar-feedback-single-top-left-img">
+                                                <img src="shopp-img/customer-4.png" alt="">
+                                            </div>
+                                            <div class="customar-feedback-single-top-left-name">
+                                                <h5>Kristin Watson</h5>
+                                                <div class="product-view-right-heading-icon-star active">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="customar-feedback-single-top-right">
+                                            <p>2 min ago</p>
+                                        </div>
+                                    </div>
+                                    <div class="customar-feedback-single-bottom">
+                                        <p>Duis at ullamcorper nulla, eu dictum eros.</p>
+                                    </div>
                                 </div>
-                                <div class="description-area-right-bottom-single-content ">
-                                    <h3>64% Discount</h3>
-                                    <p>Save your 64% money with us</p>
+                                <!-- customar-feedback single end-->
+                                <!-- customar-feedback single start -->
+                                <div class="customar-feedback-single">
+                                    <div class="customar-feedback-single-top">
+                                        <div class="customar-feedback-single-top-left">
+                                            <div class="customar-feedback-single-top-left-img">
+                                                <img src="shopp-img/customer-2.png" alt="">
+                                            </div>
+                                            <div class="customar-feedback-single-top-left-name">
+                                                <h5>Kristin Watson</h5>
+                                                <div class="product-view-right-heading-icon-star active">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star" style="color: #999;"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="customar-feedback-single-top-right">
+                                            <p>30 Apr, 2021</p>
+                                        </div>
+                                    </div>
+                                    <div class="customar-feedback-single-bottom">
+                                        <p>Keep the soil evenly moist for the healthiest growth. If the sun gets too
+                                            hot,
+                                            Chinese cabbage tends to "bolt" or go to seed; in long periods of heat, some
+                                            kind of shade may be helpful. Watch out for snails, as they will harm the
+                                            plants.</p>
+                                    </div>
                                 </div>
+                                <!-- customar-feedback single end-->
+                                <!-- customar-feedback single start -->
+                                <div class="customar-feedback-single">
+                                    <div class="customar-feedback-single-top">
+                                        <div class="customar-feedback-single-top-left">
+                                            <div class="customar-feedback-single-top-left-img">
+                                                <img src="shopp-img/customer-3.png" alt="">
+                                            </div>
+                                            <div class="customar-feedback-single-top-left-name">
+                                                <h5>Kristin Watson</h5>
+                                                <div class="product-view-right-heading-icon-star active">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="customar-feedback-single-top-right">
+                                            <p>2 min ago</p>
+                                        </div>
+                                    </div>
+                                    <div class="customar-feedback-single-bottom">
+                                        <p> Vivamus eget euismod magna. Nam sed lacinia nibh, et lacinia lacus.</p>
+                                    </div>
+                                </div>
+                                <!-- customar-feedback single end-->
+                                <!-- customar-feedback single start -->
+                                <div class="customar-feedback-single">
+                                    <div class="customar-feedback-single-top">
+                                        <div class="customar-feedback-single-top-left">
+                                            <div class="customar-feedback-single-top-left-img">
+                                                <img src="shopp-img/customer-1.png" alt="">
+                                            </div>
+                                            <div class="customar-feedback-single-top-left-name">
+                                                <h5>Kristin Watson</h5>
+                                                <div class="product-view-right-heading-icon-star active">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="customar-feedback-single-top-right">
+                                            <p>2 min ago</p>
+                                        </div>
+                                    </div>
+                                    <div class="customar-feedback-single-bottom">
+                                        <p>200+ Canton Pak Choi Bok Choy Chinese Cabbage Seeds Heirloom Non-GMO
+                                            Productive
+                                            Brassica rapa VAR. chinensis, a.k.a. Canton's Choice, Bok Choi, from USA
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- customar-feedback single end-->
                             </div>
-
-                            <div class="description-area-right-bottom-single flex items-center gap-3">
-                                <div class="description-area-right-bottom-single-icon">
-                                    <i class="fa-brands fa-pagelines text-green-600 text-2xl"></i>
+                        </div>
+                        <div class="description-area-right-all">
+                            <div class="description-area-right-top">
+                                <img src="home-img/description.png" alt="">
+                                <a class="on-youtoube-vedio" href="https://www.youtube.com/watch?v=DXYsKZ9XA5c"><i
+                                        class="fa-solid fa-play"></i></a>
+                            </div>
+                            <div class="description-area-right-bottom mt-5">
+                                <div class="description-area-right-bottom-single flex items-center gap-3">
+                                    <div class="description-area-right-bottom-single-icon">
+                                        <i class="fa-solid fa-tags text-green-600 text-2xl"></i>
+                                    </div>
+                                    <div class="description-area-right-bottom-single-content ">
+                                        <h3>64% Discount</h3>
+                                        <p>Save your 64% money with us</p>
+                                    </div>
                                 </div>
-                                <div class="description-area-right-bottom-single-content ">
-                                    <h3>100% Organic</h3>
-                                    <p>100% Organic Vegetables</p>
+
+                                <div class="description-area-right-bottom-single flex items-center gap-3">
+                                    <div class="description-area-right-bottom-single-icon">
+                                        <i class="fa-brands fa-pagelines text-green-600 text-2xl"></i>
+                                    </div>
+                                    <div class="description-area-right-bottom-single-content ">
+                                        <h3>100% Organic</h3>
+                                        <p>100% Organic Vegetables</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
         <!-- descripetion area end -->
         <!-- subscribe area start -->
+        <section>
+            <div class="container">
+
+            </div>
+        </section>
         <section>
             <div class="container px-10">
 
@@ -323,14 +491,18 @@
                 <div class="eco-footer-all-area flex justify-between bg-gray-100 p-20">
                     <!-- logo area -->
                     <div class="eco-footer-logo-area grid grid-cols-1 gap-y-3">
-                        <img src="home-img/Logo.png" alt="">
+                        <a href="index.html"><img src="home-img/Logo.png" alt=""></a>
                         <p>Morbi cursus porttitor enim lobortis molestie.<br> Duis gravida turpis dui, eget bibendum
                             magna<br>
                             congue nec.</p>
                         <div class="eco-footer-logo-numbr flex gap-4">
-                            <h3>(219) 555-0114</h3>
+                            <a href="tel:(219) 555-0114">
+                                <h3>(219) 555-0114</h3>
+                            </a>
                             <p>or</p>
-                            <h3>Proxy@gmail.com</h3>
+                            <a href="mailto:Proxy@gmail.com">
+                                <h3>Proxy@gmail.com</h3>
+                            </a>
                         </div>
                     </div>
                     <!-- logo area end -->
@@ -363,7 +535,7 @@
                         <div class="eco-mobile-footer-download-app flex gap-2">
                             <div class="eco-mobile-footer-download-single-app flex items-center gap-2 bg-white p-2">
                                 <div class="eco-mobile-footer-download-single-app-icon">
-                                    <i class="fa-brands fa-apple text-3xl"></i>
+                                    <a href="#"><i class="fa-brands fa-apple text-3xl"></i></a>
                                 </div>
                                 <div class="eco-mobile-footer-download-single-app-content">
                                     <p>Download on the</p>
@@ -391,15 +563,17 @@
                         <p>Ecobazar eCommerce © 2021. All Rights Reserved</p>
                     </div>
                     <div class="eco-copy-right-area-right flex gap-1">
-                        <img src="home-img/Method=ApplePay.png" alt="">
-                        <img src="home-img/Method=Visa.png" alt="">
-                        <img src="home-img/Method=Discover.png" alt="">
-                        <img src="home-img/footer-4.png" alt="">
-                        <img src="home-img/Method=Mastercard.png" alt="">
+                        <a href="#"><img src="home-img/Method=ApplePay.png" alt=""></a>
+                        <a href="#"><img src="home-img/Method=Visa.png" alt=""></a>
+                        <a href="#"><img src="home-img/Method=Discover.png" alt=""></a>
+                        <a href="#"><img src="home-img/footer-4.png" alt=""></a>
+                        <a href="#"><img src="home-img/Method=Mastercard.png" alt=""></a>
                     </div>
                 </div>
             </div>
         </section>
+
+
     </footer>
 
 
@@ -415,9 +589,15 @@
 
 
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>
 </body>
 
 </html>

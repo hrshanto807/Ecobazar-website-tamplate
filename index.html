@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="font-awosome/css/all.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/flip-clock.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/project.css">
@@ -19,18 +20,25 @@
                 <div class="eco-heading-lang-area">
                     <div class="eco-heading-lang flex justify-between border-b border-b-gray-300  py-4 ">
                         <div class="eco-heading-lang-left eco-tag flex space-x-2 items-center">
-                            <i class="fa-solid fa-location-dot text-gray-400"></i>
-                            <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+                            <a href="#"><i class="fa-solid fa-location-dot text-gray-400"></i></a>
+                            <a href="location:Store Location: Lincoln- 344, Illinois, Chicago, USA">
+                                <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+                            </a>
                         </div>
                         <div class="eco-heading-lang-right flex justify-between eco-tag gap-10">
                             <div class="eco-heading-single-lang flex justify-between items-center  space-x-1">
-                                <p>Eng</p>
-                                <i class="fa-solid fa-angle-down text-gray-400"></i>
+                                <a href="#">
+                                    <p>Eng</p>
+                                </a>
+                                <a href="#"> <i class="fa-solid fa-angle-down text-gray-400"></i></a>
 
                             </div>
                             <div class="eco-heading-single-lang flex justify-between items-center space-x-1">
-                                <p>USD</p>
-                                <i class="fa-solid fa-angle-down text-gray-400"></i>
+                                <a href="#">
+                                    <p>USD</p>
+                                </a>
+                                <a href="#"> <i class="fa-solid fa-angle-down text-gray-400"></i></a>
+
 
                             </div>
                         </div>
@@ -45,7 +53,7 @@
                 <div class="eco-logo-heading-area py-5 flex justify-between items-center">
                     <div class="eco-logo-heading">
                         <div class="eco-logo-png">
-                            <img src="home-img/Logo.png" alt="">
+                            <a href="index.html"><img src="home-img/Logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="eco-logo-search flex ">
@@ -59,11 +67,16 @@
                     </div>
                     <div class="eco-logo-call-numbr flex items-center gap-3">
                         <div class="eco-logo-call-icon">
-                            <i class="fa-solid fa-phone-volume text-4xl text-gray-500"></i>
+                            <a href="tel:"><i class="fa-solid fa-phone-volume text-4xl text-gray-500"></i></a>
                         </div>
                         <div class="eco-logo-call-content eco-tag">
-                            <p>Customer Services</p>
-                            <h4>(219) 555-0114</h4>
+                            <a href="tel:">
+                                <p>Customer Services</p>
+                            </a>
+                            <a href="tel:">
+                                <h4>(219) 555-0114</h4>
+                            </a>
+
                         </div>
                     </div>
                 </div>
@@ -80,10 +93,10 @@
                     </div>
                     <div class="eco-primary-main-menu ">
                         <ul class="flex gap-8">
-                            <li><a href="index.html" class="active">Home<i class="fa-solid fa-angle-down"></i></a></li>
-                            <li><a href="shop.html">Shop<i class="fa-solid fa-angle-down"></i></a></li>
-                            <li><a href="ptoduct-detailes.html">p-Details<i class="fa-solid fa-angle-down"></i></a></li>
-                            <li><a href="wishlist.html">Wishlist<i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="ptoduct-detailes.html">p-Details</a></li>
+                            <li><a href="wishlist.html">Wishlist</a></li>
                             <li><a href="newsletter.html" class="popup-new">Newsletter</a></li>
                             <li><a href="product-view.html" class="Product-View">Product View</a></li>
                         </ul>
@@ -110,7 +123,7 @@
                         </div>
                         <!--  -->
                         <!--  -->
-                        <div class="eco-hero-catagory-single-area active">
+                        <div class="eco-hero-catagory-single-area">
                             <i class="fa-solid fa-bowl-food"></i>
                             <h6>Vegetables</h6>
                         </div>
@@ -260,23 +273,7 @@
                     <div class="eco-best-deal-area">
                         <h6>best deals</h6>
                         <h2>Sale of the Month</h2>
-                        <div class="eco-stopwarch flex gap-2 justify-center">
-                            <div class="single-stopwatch">
-                                <h3>00</h3>
-                                <p>Days</p>
-                            </div>
-                            <div class="single-stopwatch">
-                                <h3>02</h3>
-                                <p>Hours</p>
-                            </div>
-                            <div class="single-stopwatch">
-                                <h3>18</h3>
-                                <p>mins</p>
-                            </div>
-                            <div class="single-stopwatch">
-                                <h3>46</h3>
-                                <p>sec</p>
-                            </div>
+                        <div class="eco-stopwarch flex justify-center items-center" id="stopwatch">
                         </div>
                         <div class="eco-fruit-sale-button text-center pt-10">
                             <a href="#" class="eco-button"> Shop now<i
@@ -411,6 +408,10 @@
                     </div>
                     <!-- eco-fetured-single-area start-->
                     <div class="eco-fetured-single-area">
+                        <div class="eco-fetured-single-area-active-icon">
+                            <a href="home-img/fetures/1.png"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye view"></i></a>
+                        </div>
                         <img src="home-img/fetures/2.png" alt="">
                         <div class="eco-fetured-single-content px-4 flex justify-between items-center">
                             <div class="eco-single-fetured-content-left">
@@ -432,6 +433,10 @@
                     <!-- eco-fetured-single-area end-->
                     <!-- eco-fetured-single-area start-->
                     <div class="eco-fetured-single-area">
+                        <div class="eco-fetured-single-area-active-icon">
+                            <a href="home-img/fetures/3.png"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye view"></i></a>
+                        </div>
                         <img src="home-img/fetures/3.png" alt="">
                         <div class="eco-fetured-single-content px-4 flex justify-between items-center">
                             <div class="eco-single-fetured-content-left">
@@ -452,7 +457,7 @@
                     </div>
                     <!-- eco-fetured-single-area end-->
                     <!-- eco-fetured-single-area start-->
-                    <div class="eco-fetured-single-area active">
+                    <div class="eco-fetured-single-area">
                         <div class="eco-fetured-single-area-active-icon">
                             <a href="home-img/fetures/4.png"><i class="fa-regular fa-heart"></i></a>
                             <a href="#"><i class="fa-regular fa-eye view"></i></a>
@@ -478,7 +483,12 @@
                     <!-- eco-fetured-single-area end-->
                     <!-- eco-fetured-single-area start-->
                     <div class="eco-fetured-single-area">
+                        <div class="eco-fetured-single-area-active-icon">
+                            <a href="home-img/fetures/5.png"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye view"></i></a>
+                        </div>
                         <img src="home-img/fetures/5.png" alt="">
+                       
                         <div class="eco-fetured-single-content px-4 flex justify-between items-center">
                             <div class="eco-single-fetured-content-left">
                                 <p>Chanise Cabbage</p>
@@ -721,7 +731,7 @@
                 </div>
                 <div class="eco-team-member-area grid grid-cols-4 gap-6">
                     <!-- single team member area start -->
-                    <div class="eco-single-team-member">
+                    <div class="eco-single-team-member cursor-pointer">
                         <div class="eco-single-team-icon">
                             <i class="fa-brands fa-facebook-f"></i>
                             <i class="fa-brands fa-twitter active"></i>
@@ -983,14 +993,14 @@
                 <div class="eco-footer-all-area flex justify-between bg-gray-100 p-20">
                     <!-- logo area -->
                     <div class="eco-footer-logo-area grid grid-cols-1 gap-y-3">
-                        <img src="home-img/Logo.png" alt="">
+                        <a href="index.html"><img src="home-img/Logo.png" alt=""></a>
                         <p>Morbi cursus porttitor enim lobortis molestie.<br> Duis gravida turpis dui, eget bibendum
                             magna<br>
                             congue nec.</p>
                         <div class="eco-footer-logo-numbr flex gap-4">
-                            <h3>(219) 555-0114</h3>
+                            <a href="tel:(219) 555-0114"><h3>(219) 555-0114</h3></a>
                             <p>or</p>
-                            <h3>Proxy@gmail.com</h3>
+                            <a href="mailto:Proxy@gmail.com"><h3>Proxy@gmail.com</h3></a>
                         </div>
                     </div>
                     <!-- logo area end -->
@@ -1023,7 +1033,7 @@
                         <div class="eco-mobile-footer-download-app flex gap-2">
                             <div class="eco-mobile-footer-download-single-app flex items-center gap-2 bg-white p-2">
                                 <div class="eco-mobile-footer-download-single-app-icon">
-                                    <i class="fa-brands fa-apple text-3xl"></i>
+                                    <a href="#"><i class="fa-brands fa-apple text-3xl"></i></a>
                                 </div>
                                 <div class="eco-mobile-footer-download-single-app-content">
                                     <p>Download on the</p>
@@ -1051,15 +1061,17 @@
                         <p>Ecobazar eCommerce © 2021. All Rights Reserved</p>
                     </div>
                     <div class="eco-copy-right-area-right flex gap-1">
-                        <img src="home-img/Method=ApplePay.png" alt="">
-                        <img src="home-img/Method=Visa.png" alt="">
-                        <img src="home-img/Method=Discover.png" alt="">
-                        <img src="home-img/footer-4.png" alt="">
-                        <img src="home-img/Method=Mastercard.png" alt="">
+                        <a href="#"><img src="home-img/Method=ApplePay.png" alt=""></a>
+                        <a href="#"><img src="home-img/Method=Visa.png" alt=""></a>
+                        <a href="#"><img src="home-img/Method=Discover.png" alt=""></a>
+                        <a href="#"><img src="home-img/footer-4.png" alt=""></a>
+                        <a href="#"><img src="home-img/Method=Mastercard.png" alt=""></a>
                     </div>
                 </div>
             </div>
         </section>
+
+
     </footer>
 
 
@@ -1081,6 +1093,7 @@
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/countdown.js"></script>
     <script src="js/custom.js"></script>
 </body>
 

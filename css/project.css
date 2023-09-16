@@ -523,6 +523,7 @@ eco-top-single
     position: absolute;
     top: 15px;
     right: 16px;
+    display: none;
 }
 
 .eco-fetured-single-area-active-icon i.view {
@@ -557,6 +558,12 @@ eco-top-single
     border: 1px solid #E6E6E6;
 }
 
+.eco-fetured-single-area:hover .eco-fetured-single-area-active-icon i {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .eco-fetured-single-area:hover .eco-single-fetured-content-right-icon i {
     color: #FFF;
     background-color: var(--eco-buttn-color);

@@ -1,7 +1,4 @@
 (function ($) {
-    $('#stopwatch').countdown('2023/12/31', function (event) {
-        $(this).html(event.strftime('<div> %d<span>:</span> <br> <p>Days</p> </div>' +'<div> %H<span>:</span> <br> <p>Hours</p> </div>' + '<div> %M<span>:</span><br> <p>Min</p></div>' + '<div>%S <br> <p>Sec</p></div>'));
-    });
     $('.popup-new').magnificPopup({
         disableOn: 700,
         type: 'iframe',
@@ -18,6 +15,9 @@
         preloader: false,
         fixedContentPos: false
     });
+    $('#stopwatch').countdown('2025/12/31', function (event) {
+        $(this).html(event.strftime('<div> %d<span>:</span> <br> <p>Days</p> </div>' + '<div> %H<span>:</span> <br> <p>Hours</p> </div>' + '<div> %M<span>:</span><br> <p>Min</p></div>' + '<div>%S <br> <p>Sec</p></div>'));
+    });
     $('.eco-icon-menu').click(function () {
         $('.eco-hero-catagory-area').slideToggle();
         $('.eco-hero-content-area').toggleClass('eco-hero-content-bg');
@@ -30,9 +30,9 @@
         nav: false,
         items: 1,
         dots: true,
-        // autoplay: true,
-        // autoplayTimeout: 2000,
-        // autoplayHoverPause: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
 
 
     });
@@ -75,8 +75,8 @@
         $("#tabs").tabs();
     });
     // timer
-    
+
     $('#timer').countdown('2023/12/31', function (event) {
-        $(this).html(event.strftime('<div> %d<span>:</span> <br> <p>Days</p> </div>' +'<div> %H<span>:</span> <br> <p>Hours</p> </div>' + '<div> %M<span>:</span><br> <p>Min</p></div>' + '<div>%S <br> <p>Sec</p></div>'));
+        $(this).html(event.strftime('<div> %d<span>:</span> <br> <p>Days</p> </div>' + '<div> %H<span>:</span> <br> <p>Hours</p> </div>' + '<div> %M<span>:</span><br> <p>Min</p></div>' + '<div>%S <br> <p>Sec</p></div>'));
     });
 })(jQuery);

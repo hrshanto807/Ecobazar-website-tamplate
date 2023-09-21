@@ -1,4 +1,18 @@
 (function ($) {
+        $('.scrollTop').click(function(){
+            $('html').animate({'scrollTop':'10'},2000);
+            return false;
+        });
+        $(window).scroll(function(){
+            let uporthekeScroll = $(window).scrollTop();
+            if (uporthekeScroll > 30){
+                $('.all-header').addClass('fixed')
+            }
+            else{
+                $('.all-header').removeClass('fixed')
+            }
+            
+        });
     $('.popup-new').magnificPopup({
         disableOn: 700,
         type: 'iframe',
@@ -70,13 +84,8 @@
         preloader: false,
         fixedContentPos: false
     });
-    // tabs
-    $(function () {
-        $("#tabs").tabs();
-    });
-    // timer
-
     $('#timer').countdown('2023/12/31', function (event) {
         $(this).html(event.strftime('<div> %d<span>:</span> <br> <p>Days</p> </div>' + '<div> %H<span>:</span> <br> <p>Hours</p> </div>' + '<div> %M<span>:</span><br> <p>Min</p></div>' + '<div>%S <br> <p>Sec</p></div>'));
     });
+   
 })(jQuery);

@@ -6,10 +6,10 @@
         $(window).scroll(function(){
             let uporthekeScroll = $(window).scrollTop();
             if (uporthekeScroll > 30){
-                $('.all-header').addClass('fixed')
+                $('.eco-primary-main-menu').addClass('fixed')
             }
             else{
-                $('.all-header').removeClass('fixed')
+                $('.eco-primary-main-menu').removeClass('fixed')
             }
             
         });
